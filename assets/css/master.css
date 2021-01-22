@@ -15,7 +15,7 @@
 
 /* RIGHE-INIZIO */
 .row{
-  margin: 2% 20%;
+  margin: 2% 30%;
   height: 100px;
 }
 
@@ -37,6 +37,7 @@
 .col-2{
   width: 100%;
   height: 350px;
+  border-radius: 10px;
 }
 
 .col-3{
@@ -54,12 +55,7 @@
   width: 24%;
   height: 350px;
   margin-top: 25px;
-}
-
-.col-7{
-  width: 24%;
-  height: 350px;
-  margin-top: 25px;
+  border-radius: 10px;
 }
 
 .col-6{
@@ -68,7 +64,16 @@
   margin-top: 25px;
   margin-left: 1%;
   margin-right: 1%;
+  border-radius: 10px;
 }
+
+.col-7{
+  width: 24%;
+  height: 350px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
 
 .col-8{
   height: 50px;
@@ -81,15 +86,31 @@
 
 /* VARIE */
 
-h1{
+.title-cover1{
+  font-size: 20px;
+  color: white;
+  font-weight: lighter;
+  margin-left: 30px;
+  margin-top: 230px;
+}
+
+.text-cover1{
+  color: white;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-size: 15px;
+
+}
+
+.middle-main-text1{
   font-size: 40px;
 }
 
-p{
+.middle-main-text2{
   color: grey;
 }
 
-span{
+.creator{
   text-align: center;
   display: block;
 }
@@ -104,14 +125,17 @@ span{
   font-size: 12px;
 }
 
+.text-c5-6-7{
+  color: grey;
+  font-size: 15px;
+  margin-top: 10px;
+  display: block;
+}
+
+/* VARIE FINE */
+
 /* UTILITY BACKGROUND */
 
-/* .logo{
-  background-image: url(../img/logo.png);
-  background-size: 140px 50px;
-  background-repeat: no-repeat;
-  border-right: 1px solid black;
-} */
 
 .logo{
   width: 140px;
@@ -122,14 +146,16 @@ span{
 
 .cover1{
   background-image: url(../img/banner.jpg);
-  background-size: contain;
+  background-size: 400px 350px;
+  background-size: cover;
+  box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0,0.3);
 }
 
-
-.cover-col-5{
-  background-image: url(../img/img-1.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 50%;
+.img-c5{
+  width: 100%;
+  height: 50%;
+  filter: brightness(80%);
+  border-radius: 10px;
 }
 
 .cover-col-6{
@@ -143,3 +169,5 @@ span{
   background-repeat: no-repeat;
   background-size: 100% 50%;
 }
+
+/* FINE UTILITY BACKGROUND */
